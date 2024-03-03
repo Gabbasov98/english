@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+
+
+<body class="m-page">
+    <div class="wrapper">
+        <header class="header">
+
+
+        </header>
+        <main class="content">
+
+            <div class="new-article">
+                <div class="container">
+                    <div class="new-article__top">
+                        <a href="" class="new-article__back">
+                            ← Back
+                        </a>
+                        <button class="new-article__confirm m-btn m-btn-green">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.0457 2.13855C16.1104 2.20316 16.1618 2.27992 16.1969 2.36442C16.2319 2.44893 16.25 2.53952 16.25 2.63101C16.25 2.7225 16.2319 2.81309 16.1969 2.89759C16.1618 2.9821 16.1104 3.05885 16.0457 3.12346L6.30781 12.8613C6.2432 12.9261 6.16645 12.9775 6.08194 13.0125C5.99744 13.0476 5.90685 13.0656 5.81536 13.0656C5.72387 13.0656 5.63328 13.0476 5.54877 13.0125C5.46427 12.9775 5.38751 12.9261 5.3229 12.8613L0.453982 7.99238C0.323374 7.86178 0.25 7.68463 0.25 7.49993C0.25 7.31522 0.323374 7.13808 0.453982 7.00747C0.58459 6.87686 0.761732 6.80349 0.946438 6.80349C1.13115 6.80349 1.30829 6.87686 1.4389 7.00747L5.81536 11.3853L15.0607 2.13855C15.1254 2.07378 15.2021 2.02238 15.2866 1.98732C15.3711 1.95225 15.4617 1.9342 15.5532 1.9342C15.6447 1.9342 15.7353 1.95225 15.8198 1.98732C15.9043 2.02238 15.981 2.07378 16.0457 2.13855Z" fill="#59B41B" />
+                            </svg>
+                        </button>
+                    </div>
+                    <form action="" class="article-form">
+                        <div class="fg">
+                            <input type="text" placeholder="Title">
+                        </div>
+                        <div class="fg">
+                            <input type="text" placeholder="Link">
+                        </div>
+                        <div class="fg fg--text">
+                            <textarea placeholder="Text"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <a href="" class="footer__logo">
+                        <img src="img/logo.svg" alt="">
+                    </a>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <div class="modal" id="addModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="text18 bold-text">
+                Add to Anki
+            </div>
+            <form action="" class="modal-form">
+                <div class="fg">
+                    <input type="text" placeholder="Word or phrase">
+                </div>
+                <div class="fg">
+                    <input type="text" placeholder="Transctiption">
+                </div>
+                <div class="fg">
+                    <input type="text" placeholder="Translation">
+                </div>
+                <div class="fg fg--text">
+                    <textarea placeholder="Meaning"></textarea>
+                </div>
+                <div class="modal-form__nav _close-modal">
+                    <button type="button" class="modal-form__btn">
+                        <span>Save</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
